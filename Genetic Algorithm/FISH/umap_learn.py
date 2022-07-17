@@ -15,4 +15,3 @@ mapper = (umap
           .fit(df_fish[['Weight', 'Length1', 'Length2', 'Length3', 'Height','Width']].values)
           )
 umap.plot.points(mapper, labels=df_fish['Species'])
-# %%
